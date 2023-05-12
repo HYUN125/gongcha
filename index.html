@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faviconV2.ico">
+    <title>공차</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8d7a603239.js" crossorigin="anonymous"></script>
+    <!-- animatecss -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- video js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="js/jquery.fitvids.js"></script>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <!-- 1200px 햄버거 -->
+    <a href="#" class="mb-bt"><span class="line"></span></a>
+    <!-- 1200px 햄버거 메뉴 -->
+    <div class="mb-nav">
+        <div class="m-icon">
+            <a href="#"><img src="images/icon/btn-insta.png" alt="인스타그램"></a>
+            <a href="#"><img src="images/icon/btn-kakao.png" alt="카카오톡"></a>
+            <a href="#"><img src="images/icon/btn-face.png" alt="페이스북"></a>
+        </div>
+        <div class="mb-nav-main">
+            <ul class="mb-menu">
+                <li>
+                    <a href="#" class="mb-mainmenu">Brand</a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">브랜드소개</a></li>
+                        <li><a href="#">브랜드 아이덴티티</a></li>
+                        <li><a href="#">공차의 약속</a></li>
+                        <li><a href="#">세계 속의 공차</a></li>
+                        <li><a href="#">공차 소식</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mb-mainmenu">Menu</a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">티 레시피</a></li>
+                        <li><a href="#">주문방법</a></li>
+                        <li><a href="#">티 스토리</a></li>
+                        <li><a href="#">신메뉴</a></li>
+                        <li><a href="#">음료</a></li>
+                        <li><a href="#">빙수</a></li>
+                        <li><a href="#">디저트</a></li>
+                        <li><a href="#">MD상품</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mb-mainmenu">Store</a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">매장 찾기</a></li>
+                        <li><a href="#">가맹점 개설문의</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mb-mainmenu">Membership</a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">공차카드 & e-Gift</a></li>
+                        <li><a href="#">공차 멤버십</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mb-mainmenu">Service</a>
+                    <ul class="mb-submenu">
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">결제 서비스</a></li>
+                        <li><a href="#">통신사 제휴</a></li>
+                        <li><a href="#">공지사항</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- header -->
+    <header class="clearfix">
+        <div class="inner">
+            <h1 class="logo"><a href="#">
+                <img src="images/main-logo.png" alt="공차메인로고">
+                </a></h1>
+            <nav>
+                <ul class="main">
+                    <li><a href="#">Brand</a> 
+                        <ul class="sub">
+                            <li><a href="#">브랜드소개</a></li>
+                            <li><a href="#">브랜드 아이덴티티</a></li>
+                            <li><a href="#">공차의 약속</a></li>
+                            <li><a href="#">세계 속의 공차</a></li>
+                            <li><a href="#">공차 소식</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Menu</a>
+                        <ul class="sub">
+                            <li><a href="#">티 레시피</a></li>
+                            <li><a href="#">주문방법</a></li>
+                            <li><a href="#">티 스토리</a></li>
+                            <li><a href="#">신메뉴</a></li>
+                            <li><a href="#">음료</a></li>
+                            <li><a href="#">빙수</a></li>
+                            <li><a href="#">디저트</a></li>
+                            <li><a href="#">MD상품</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Store</a>
+                        <ul class="sub">
+                            <li><a href="#">매장 찾기</a></li>
+                            <li><a href="#">가맹점 개설문의</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Membership</a>
+                        <ul class="sub">
+                            <li><a href="#">공차카드 & e-Gift</a></li>
+                            <li><a href="#">공차 멤버십</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Service</a>
+                        <ul class="sub">
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">결제 서비스</a></li>
+                            <li><a href="#">통신사 제휴</a></li>
+                            <li><a href="#">공지사항</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="icon">
+                <a href="#"><img src="images/icon/btn-insta.png" alt="인스타그램"></a>
+                <a href="#"><img src="images/icon/btn-kakao.png" alt="카카오톡"></a>
+                <a href="#"><img src="images/icon/btn-face.png" alt="페이스북"></a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- main banner slide-->
+    <main>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide m-slide1" >
+                    <img class="mb-1 animate__animated animate__fadeIn" src="images/bn-drink-1.png" alt="메인음료1">
+                    <img class="mb-2 animate__animated animate__fadeIn animate__delay-1s" src="images/bn-drink-2.png" alt="메인음료2">
+                    <img class="mb-3 animate__animated animate__fadeIn animate__delay-2s" src="images/bn-drink-3.png" alt="메인음료3">
+                    <div class="mb-title">
+                        <img src="images/bn-1-title.png" alt="스트로베리홀릭 메인타이틀">
+                    </div>
+
+                </div>
+               
+                <div class="swiper-slide">
+                    <img src="images/main-banner-2.png" alt="메인배너2">
+                </div>
+                <div class="swiper-slide">
+                    <iframe id="videoPlayer" width="1920" height="860px" src="https://www.youtube.com/embed/7rleYGZKNsY?autoplay=1&mute=1"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen;></iframe>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="btn-next">
+                <i class="fa-sharp fa-solid fa-circle-arrow-right"></i>
+            </div>
+            <div class="btn-prev">
+                <i class="fa-sharp fa-solid fa-circle-arrow-left"></i>
+            </div>
+        </div>
+    </main>
+
+    <!-- 모바일배너 -->
+    <div class="m-banner">
+        <i class="m-i">
+            <img class="mb-bn-1 animate__animated animate__fadeInLeft" src="images/mbanner-1.png" alt="모바일배너-음료1">
+            <img class="mb-bn-2 animate__animated animate__fadeInRight animate__delay-1s" src="images/mbanner-2.png" alt="모바일배너-음료2">
+            <img class="mb-bn-3 animate__animated animate__fadeInLeft animate__delay-2s" src="images/mbanner-3.png" alt="모바일배너-음료3">
+        </i>
+    </div>
+
+    <!-- section1 bestmenu -->
+    <section class="work-section" id="work">
+        <div class="inner">
+            <div class="section-header clearfix">
+                <div class="inner">
+                    <h1>공차 더 베스트</h1>
+                    <ul class="tabs-nav">
+                        <li><a href="#work01">
+                            <img src="images/slice.png" alt="타이틀앞슬러시">시즌메뉴</a></li>
+                        <li><a href="#work02">
+                            <img src="images/slice.png" alt="타이틀앞슬러시">베스트 콤비네이션</a></li>
+                        <li><a href="#work03">
+                            <img src="images/slice.png" alt="타이틀앞슬러시">밀크티</a></li>
+                        <li><a href="#work04">
+                            <img src="images/slice.png" alt="타이틀앞슬러시">스무디</a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <div class="section-body">
+                <section class="tabs-panel" id="work01">
+                    <div class="image-wrapper">
+                        <div class="img-4">
+                            <div class="no-1">
+                                <img src="images/best/new-menu-1.jpg" alt="시즌메뉴1-딸기쥬얼리벨벳밀크티">
+                                <p class="t-desc">딸기 쥬얼리 벨벳 밀크티</p>
+                                <p class="img-desc">
+                                    쥬얼리를 넣은 딸기 얼그레이 밀크티에 치즈폼과 딸기 다이스까지 더해 다양한 식감의  프리미엄 밀크티
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                            <div class="no-2">
+                                <img src="images/best/new-menu-2.jpg" alt="시즌메뉴1-얼그레이딸기스무디">
+                                <p class="t-desc">얼그레이 딸기 스무디</p>
+                                <p class="img-desc">
+                                    향긋한 얼그레이티가 블렌딩된 스무디에 상큼한 딸기를 더한 과일 믹스 티 스무디
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                            <div class="no-3">
+                                <img src="images/best/newmenu-3.jpg" alt="시즌메뉴1-얼그레이딸기밀크티">
+                                <p class="t-desc">딸기 듬뿍 밀크티</p>
+                                <p class="img-desc">
+                                    국내산 딸기를 듬뿍 넣고 자스민 그린티와 얼그레이티를 블렌딩한 밀크티
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                            <div class="no-4">
+                                <img src="images/best/newmenu-4.jpg" alt="시즌메뉴1-공차슈페너">
+                                <p class="t-desc">공차 슈페너</p>
+                                <p class="img-desc">
+                                    얼그레이티를 아메리카노에 얹고 달콤짭조름한 밀크폼을 더한 스페셜 메뉴
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="tabs-panel" id="work02">
+                    <div class="image-wrapper">
+                        <div class="img-4">
+                            <div class="no-1">
+                                <img src="images/best/best-1.png" alt="베스트1-블랙밀크티">
+                                <p class="t-desc">블랙 밀크티 + 펄</p>
+                                <p class="img-desc">
+                                    공차 대표 메뉴 블랙밀크티와 쫄깃쫄깃한 펄의 콤비네이션
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                            <div class="no-2">
+                                <img src="images/best/best-2.png" alt="베스트1-타로밀크티">
+                                <p class="t-desc">타로 밀크티 + 펄</p>
+                                <p class="img-desc">
+                                    고소한 타로밀크티와 쫀득한 펄이 만난 공차의 베스트 셀러 
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                            <div class="no-3">
+                                <img src="images/best/best-3.png" alt="베스트1-피스타치오밀크티">
+                                <p class="t-desc">피스타치오 밀크티 + 펄</p>
+                                <p class="img-desc">
+                                    그린티를 넣은 달콤하고 고소한 피스타치오 밀크티에 쫀득쫀득한 펄을 더한 밀크티
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                            <div class="no-4">
+                                <img src="images/best/best-4.png" alt="베스트1-망고요구르트">
+                                <p class="t-desc">망고 요구르트 + 화이트 펄</p>
+                                <p class="img-desc">
+                                    달콤한 망고 과육이 담겨진 요구르트에 화이트펄의 꼬들꼬들함이 느껴지는 주스
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="tabs-panel" id="work03">
+                    <div class="image-wrapper">
+                        <div class="img-4 clearfix">
+                            <div class="no-1">
+                                <img src="images/best/milk-1.jpg" alt="밀크티1-자스민그린밀크티">
+                                <p class="t-desc">자스민 그린 밀크티</p>
+                                <p class="img-desc">
+                                    자스민 꽃잎을 함께 우려낸​ 그린티와 밀크의 조화(HOT / ICED)
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                            <div class="no-2">
+                                <img src="images/best/milk-2.jpg" alt="밀크티2-초콜렛밀크티">
+                                <p class="t-desc">초콜렛 밀크티</p>
+                                <p class="img-desc">
+                                    부드러운 밀크에 녹아든 진한 초콜렛을 느낄 수 있는 초콜렛 밀크티 (HOT / ICED)
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                            <div class="no-3">
+                                <img src="images/best/milk-3.png" alt="밀크티3-제주그린밀크티">
+                                <p class="t-desc">제주 그린 밀크티</p>
+                                <p class="img-desc">
+                                    제주 녹차를 사용하여 쌉싸름한 맛과 달콤한 맛이 어우러진 밀크티
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                            <div class="no-4">
+                                <img src="images/best/milk-4.png" alt="밀크티4-하동호지밀크티">
+                                <p class="t-desc">하동 호지밀크티</p>
+                                <p class="img-desc">
+                                    하동 호지를 사용하여 고소하고 부드러운 호지(볶은 녹차)의 풍미를 느낄 수 있는 음료
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="tabs-panel" id="work04">
+                    <div class="image-wrapper">
+                        <div class="img-4">
+                            <div class="no-1">
+                                <img src="images/best/smooth-1.png" alt="스무디1-망고스무디">
+                                <p class="t-desc">망고 스무디</p>
+                                <p class="img-desc">
+                                    농축된 달콤한 망고와 밀크를 함께 갈아만든 망고 스무디(ONLY ICED)
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                            <div class="no-2">
+                                <img src="images/best/smooth-2.png" alt="스무디2-딸기쿠키스무디">
+                                <p class="t-desc">딸기 쿠키 스무디</p>
+                                <p class="img-desc">
+                                    얼그레이티로 만든 밀크 스무디에 달콤한 딸기와 바삭한 쿠키를 더한 스무디
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                            <div class="no-3">
+                                <img src="images/best/smooth-3.png" alt="스무디3-초콜렛쿠키&크림스무디">
+                                <p class="t-desc">초콜렛 쿠키&크림 스무디</p>
+                                <p class="img-desc">
+                                    진한 초코 스무디에 바삭한 쿠키와 밀크폼이 더해진 스무디
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                            <div class="no-4">
+                                <img src="images/best/smooth-4.png" alt="스무디4-돌체크러쉬위드샷">
+                                <p class="t-desc">돌체 크러쉬 위드 샷</p>
+                                <p class="img-desc">
+                                    돌체크러쉬에 깊은 풍미의 커피를 넣어 쫀득쫀득한 펄이 조화로운 크러쉬
+                                </p>
+                                <a href="#"></a> 
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== section order 주문하기 -->
+    <section id="order" class="clearfix">
+        <div class="inner">
+            <div class="order-text">
+                <h1>주문하기</h1>
+                <p class="order-see"><a href="#">자세히보기</a></p>
+            </div>
+            <div class="step clearfix">
+                    <div class="step-1">
+                        <img src="images/order/step1.png" alt="티메뉴아이콘">
+                        <p class="step-t">STEP 01</p>
+                        <p class="step-d">TEA MENU</p>
+                    </div>
+                    <div class="step-2">
+                        <img src="images/order/step2.png" alt="토핑아이콘">
+                        <p class="step-t">STEP 02</p>
+                        <p class="step-d">TOPPINGS</p>
+                    </div>
+                    <div class="step-3">
+                        <img src="images/order/step3.png" alt="아이스아이콘">
+                        <p class="step-t">STEP 03</p>
+                        <p class="step-d">SWEET & ICE GRADE</p>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== section tea 티레시피 -->
+    <section id="tea" class="clearfix">
+        <div class="inner">
+            <h1>공차 티 레시피</h1>
+            <div class="t-inner">
+                <div class="origin">
+                    <p class="tea-title">Original Tea</p>
+                    <p class="tea-img"><img src="images/tea/origin.png" alt="티레시피-오리지널티"></p>
+                    <p class="tea-desc">티백이나 가루가 아닌 황실에 바치던 잎차만 골라 1분 1초도 어기지 않고 차마다 다른 황금률로 우려 한 잔 한 잔 부드러움을 더해 만듭니다</p>
+                    <p class="tea-see"><a href="#">메뉴 보러가기</a></p>
+                </div>
+                <div class="milk">
+                    <p class="tea-title">Milk Tea</p>
+                    <p class="tea-img"><img src="images/tea/milk.png" alt="티레시피-밀크티"></p>
+                    <p class="tea-desc">최적의 자연이 키워낸 잎차만 골라 각 차종에 맞는 황금률로 우려 담백한 우유와 허니, 카라멜 등 새로운 맛을 더해 만듭니다</p>
+                    <p class="tea-see"><a href="#">메뉴 보러가기</a></p>
+                </div>
+                <div class="fruit">
+                    <p class="tea-title">Fruit Mix</p>
+                    <p class="tea-img"><img src="images/tea/mix.png" alt="티레시피-과일믹스"></p>
+                    <p class="tea-desc">찻잎의 푸름을 간직한 녹차만 골라 최적의 온도 89℃로 우려 달콤상큼한 과일을 더해 만듭니다</p>
+                    <p class="tea-see"><a href="#">메뉴 보러가기</a></p>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- ========= section 배달서비스 -->
+    <section id="drive">
+        <div class="inner">
+            <div class="d-text">
+                <h1>공차 배달서비스</h1>
+                <span>배달 서비스로</span><br>
+                <span>공차를 편리하게 즐기세요!</span>
+            </div>    
+            <div class="d-4box">
+                <span><a href="">
+                    <img src="images/drive/drive-1.webp" alt="배민로고">
+                </a></span>
+                <span><a href="">
+                    <img src="images/drive/drive-2.PNG" alt="쿠팡이츠로고">
+                </a></span>
+                <span><a href="">
+                    <img src="images/drive/drive-3.png" alt="땡겨요로고">
+                </a></span>
+                <span><a href="">
+                    <img src="images/drive/drive-4.png" alt="요기요로고">
+                </a></span>
+            </div>
+        </div>        
+    </section>
+
+    <!-- 3단 -->
+    <section id="third">
+        <div class="left-3">
+            <div class="black">
+                <img src="images/third/third-1.jpg" alt="가맹이미지">
+            </div>    
+            <div class="p-box">
+                <a href="#">가맹점 개설문의</a>
+            </div>
+        </div>
+        <div class="mid-3">
+            <div class="black">
+                <img src="images/third/third-2.jpg" alt="매장이미지">
+            </div>
+            <div class="p-box">
+                <a href="#">매장검색</a>
+            </div>
+        </div>
+        <div class="right-3">
+            <div class="black">
+                <img src="images/third/third-3.jpg" alt="어플이미지">
+            </div>
+            <div class="p-box">
+                <a href="#">공차 어플 안내</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="f-inner clearfix">
+            <div class="f-left">
+                <img src="images/footer-logo.png" alt="푸터로고이미지">
+                <p>
+                    (C)GONGCHA KOREA CO.,LTD
+                    <br>
+                    ALL RIGHTS RESERVED.
+                </p>
+            </div>
+            <div class="f-right">
+                <ul class="ft-menu">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">제휴/제안</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li><a href="#">윤리규범 실천지침</a></li>
+                    <li><a href="#">HOT-LINE</a></li>
+                </ul>
+                <div class="center">
+						<div>고객센터
+							<span class="tell">02-779-7758</span>
+						</div>
+						<span class="time">
+							운영시간 : 월요일~목요일 ( 오전 9시 30분 ~ 오후 6시 00분) , 금요일 ( 오전 9시 30분~ 오후 1시 30분 ) <br>
+							점심시간 : 낮 12시 ~ 오후 1시 / 주말 및 공휴일 휴무</span>
+				</div>
+                <address class="address">
+                    <span>서울 종로구 종로 47(공평동, 7층)</span>
+                    <span>㈜공차코리아 대표이사 이봉진</span>
+                    <span>사업자등록번호 214-88-84534</span>
+                    <span>통신판매번호: 2020-서울종로-0966</span>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+    <!-- go-top & 가맹문의 버튼 -->
+    <a href="#" class="gotop">
+        <i class="fa-sharp fa-solid fa-arrow-up"></i>
+    </a>
+
+
+</body>
+</html>
